@@ -21,7 +21,7 @@ def take_a_number(katz_deli, name)
 def now_serving
   if katz_deli.size < 1
     puts "There is nobody waiting to be served!"
-  else 
+  else
     puts "#{katz_deli[0]}"
   end
   katz_deli.unshift
