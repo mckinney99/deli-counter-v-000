@@ -19,7 +19,7 @@ def take_a_number(katz_deli, name)
   end
 
 def now_serving(katz_deli)
-  if katz_deli.size < 1
+  if katz_deli.length < 1
     puts "There is nobody waiting to be served!"
   else
     puts "#{katz_deli[0]}"
